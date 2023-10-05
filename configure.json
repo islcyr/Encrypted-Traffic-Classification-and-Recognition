@@ -1,0 +1,38 @@
+{
+  "model_param":
+  {
+    "class_num": 6,
+    "ckpt_path": ".\\6net_vpn\\ckpt",
+    "data_dir": "E:\\Python\\PycharmProjects\\tfproject\\6class\\VpnSessionL7\\",
+    "test_ratio": 0.3,
+    "train_param":
+    {
+      "batch_size": 100,
+      "epoch": 50
+    }
+  },
+  "online_session_dir": ".\\package\\pack",
+  "local_session_dir": ".\\package\\pack_local",
+  "mode": "L7",
+  "2net":
+  {
+    "class_num": 2,
+    "ckpt_path": ".\\2net\\ckpt"
+  },
+  "6net_novpn":
+  {
+    "class_num": 6,
+    "ckpt_path": ".\\6net_novpn\\ckpt"
+  },
+  "6net_vpn":
+  {
+    "class_num": 6,
+    "ckpt_path": ".\\6net_vpn\\ckpt"
+  },
+  "unconsider_procs":
+  [
+    "svchost.exe"
+  ],
+  "detlog": ".\\log\\DetectLog.log"
+}
+
